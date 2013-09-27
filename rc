@@ -1,0 +1,3 @@
+--leak-check=full
+--track-origins=yes
+--num-callers=30
