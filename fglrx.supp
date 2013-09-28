@@ -1,0 +1,43 @@
+{
+   fglrx 2:8.960 gives a lot of valgrind errors for me. Could be because of Qt, ITK or VTK
+   Memcheck:Param
+   ioctl(generic)
+   ...
+   obj:/usr/lib/fglrx/dri/fglrx_dri.so
+   ...
+}
+{
+   fglrx 2:8.960 gives a lot of valgrind errors for me. Could be because of Qt, ITK or VTK
+   Memcheck:Cond
+   ...
+   obj:/usr/lib/fglrx/dri/fglrx_dri.so
+   ...
+}
+{
+   fglrx 2:8.960 gives a lot of valgrind errors for me. Could be because of Qt, ITK or VTK
+   Memcheck:Addr1
+   ...
+   obj:/usr/lib/fglrx/dri/fglrx_dri.so
+   ...
+}
+{
+   fglrx 2:8.960 gives a lot of valgrind errors for me. Could be because of Qt, ITK or VTK
+   Memcheck:Addr2
+   ...
+   obj:/usr/lib/fglrx/dri/fglrx_dri.so
+   ...
+}
+{
+   fglrx 2:8.960 gives a lot of valgrind errors for me. Could be because of Qt, ITK or VTK
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/fglrx/dri/fglrx_dri.so
+   ...
+}
+{
+   fglrx 2:8.960 gives a lot of valgrind errors for me. Could be because of Qt, ITK or VTK
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/fglrx/dri/fglrx_dri.so
+   ...
+}

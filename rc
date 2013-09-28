@@ -3,3 +3,4 @@
 --num-callers=30
 --suppressions=/home/sjors/valgrind/fontconfig.supp
 --suppressions=/home/sjors/valgrind/zlib.supp
+--suppressions=/home/sjors/valgrind/fglrx.supp
