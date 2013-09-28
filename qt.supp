@@ -1,0 +1,15 @@
+{
+   Qt draws pixmaps just outside its buffers
+   Memcheck:Addr8
+   ...
+   fun:_ZN8QPainter10drawPixmapERK7QPointFRK7QPixmap
+   ...
+}
+{
+   Qt forgets to free some GTK stuff
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libQtGui.so.4.8.1
+   fun:_ZN9QGtkStyleC1Ev
+   ...
+}
