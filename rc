@@ -1,3 +1,4 @@
 --leak-check=full
 --track-origins=yes
 --num-callers=30
+--suppressions=/home/sjors/valgrind/fontconfig.supp

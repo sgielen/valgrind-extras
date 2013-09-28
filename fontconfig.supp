@@ -1,0 +1,7 @@
+{
+   Leaks in Fontconfig 2.8.0, possibly fault of qt 4.8.1
+   Memcheck:Addr4
+   ...
+   fun:FcConfigParseAndLoad
+   ...
+}
