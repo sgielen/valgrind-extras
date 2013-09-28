@@ -1,0 +1,9 @@
+These are my extra files for sane and easy use of Valgrind. To start, copy the
+rc file to your ~/.valgrindrc and change the paths to the supplement files. You
+can also move the file as ".valgrindrc" into the directory where you call
+valgrind. For more info on the RC file, see
+http://valgrind.org/docs/manual/manual-core.html#manual-core.defopts. For more
+information on the supplement files, see Valgrind's manpage. Run valgrind with
+the -v flag to check how often supplement files were used.
+
+Pull requests welcome!
